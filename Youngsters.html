@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PidigovulavariPalli</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    body {
+      background: url('y-bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      transition: filter 0.5s, background 0.5s;
+      filter: brightness(0.95);
+      /* Initial brightness */
+      border-image-source: url('flower-border.png');
+      border-image-slice: 25;
+      border-image-repeat: round;
+      border-width: 30px;
+      border-style: solid;
+    }
+
+    body:hover {
+      filter: brightness(1.2);
+      /* Increase background brightness on hover */
+    }
+
+    body:hover div {
+      filter: brightness(0.7);
+      /* Decrease content brightness on hover */
+    }
+
+    header {
+      background: rgba(53, 66, 74, 0.8);
+      color: #fff;
+      padding: 10px 0;
+      border-radius: 15px;
+    }
+
+    header ul {
+      list-style: none;
+      text-align: center;
+    }
+
+    header ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    header ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header ul li a:hover {
+      text-decoration: underline;
+    }
+
+    div {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      margin-top: 20px;
+      transition: filter 0.5s;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+      color: #35424a;
+    }
+
+    h3 {
+      color: #35424a;
+      margin-top: 20px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: rgba(241, 241, 241, 0.8);
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .content img {
+      width: auto;
+      height: 500px;
+      margin-right: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .content img:hover {
+      transform: scale(1.05);
+      filter: brightness(1.1);
+    }
+
+    @media (max-width: 600px) {
+      header ul li {
+        display: block;
+        margin: 10px 0;
+      }
+
+      .content {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .content img {
+        margin-right: 0;
+        margin-bottom: 20px;
+        height: auto;
+        width: 100%;
+        max-width: 500px;
+      }
+    }
+  </style>
+</head>
+    <h1>PidigovulavariPalli</h1>
+
+  <body>
+    <header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="admin.html">Admin🫅</a></li>
+        <li><a href="Youngsters.html">Youngsters🧒</a></li>
+        <li><a href="Politics.html">Politics◽</a></li>
+        <li><a href="Festivals.html">Festivals🪅</a></li>
+      </ul>
+    </header>
+
+  <h1>Youngsters🧒</h1>
+  <div class="content">
+    <img src="Youngsters.jpg" alt="Youngsters" class="Youngsters-image">
+    <div>
+      <p>Here are the details about the Youngsters of the PidigovulavariPalli:</p>
+      <ul>
+        <h3>✴The youngsters of the village are:</h3>
+        <li>Shashank Pidigovula</li>
+        <li>Madhusudhan Vunta</li>
+        <li>Vinod Majjiga</li>
+        <li>Kalyan Majjiga</li>
+        <li>Charan Pidigovula</li>
+        <li>Naresh Pidigovula</li>
+        <li>Vijay Pidigovula</li>
+        <li>Hemanth Pidigovula</li>
+        <li>Rajesh Pidigovula</li>
+        <li>Giri Majjiga</li>
+        <li>Jagadeesh Agilineni</li>
+        <li>Prakash Pidigovula</li>
+        <li>Ganesh Majjiga</li>
+        <li>Venkatesh Pidigovula</li>
+        <li>HariKrishna Pidigovula</li>
+        <li>SivaKrishna Pidigovula</li>
+        <li>Mahindra Agilineni</li>
+        <li>Kiran Agilineni</li>
+        <li>Nagesh Agilineni</li>
+        <li>Manoj Pidigovula</li>
+        <li>Vignesh Majjiga</li>
+        <li>Reddesh Pidigovula</li>
+        <li>Ashok</li>
+        <li>Vishnu Pidigovula</li>
+        <li>Ganguraju Majjiga</li>
+        <li>Srinivas Pidigovula</li>
+        <li>Naveen Agilineni</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 PidigovulavariPalli. All Rights Reserved.</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background: #35424a;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header ul {
+  list-style: none;
+  text-align: center;
+}
+
+header ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styles */
+div {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #35424a;
+}
+
+/* Paragraph spacing */
+p {
+  margin-bottom: 15px;
+}
+
+/* Admin page styles */
+h1 {
+  color: #35424a;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li::before {
+  content: '•';
+  color: #35424a;
+  margin-right: 10px;
+}
+
+/* Admin content styles */
+.admin-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.admin-details {
+  flex: 1;
+}
+
+.image-container {
+  margin-left: 20px;
+}
+
+.admin-image {
+  max-width: 300px;
+  height: auto;
+  width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 300px) {
+  header ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .admin-content {
+    flex-direction: column;
+  }
+
+  .image-container {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #f1f1f1;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
